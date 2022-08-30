@@ -1,0 +1,70 @@
+.tabela{
+    width: 95%;
+    margin: auto;
+    border: 1px solid #002147;
+    margin-bottom: 20px;
+}
+.tabela tr:nth-child(even) {
+    background-color: #057859;
+    color: white;
+}
+.tabela tr:nth-child(odd) {
+    background-color: #06c491;
+    color: white;
+}
+.tabela td {
+    font-size: 3vw;
+    padding: 5px;
+}
+.tabela th {
+    background-color: #ebeff5;
+    color:#057859;
+    font-size: 3vw;
+}
+.status-zahtjeva {
+    background-color: #ebeff5;
+    color: #078a67;
+    font-size: 3vw;
+    margin: 6px 3px;
+}
+
+@media (min-width: 576px) {
+    .tabela td, .tabela th {
+        font-size: 2vw;
+    }
+    .status-zahtjeva {
+        font-size: 2vw;
+    }
+
+}
+@media (min-width: 768px) {
+    .tabela td, .tabela th {
+        font-size: 1.7vw;
+    }
+    .status-zahtjeva {
+        font-size: 1.7vw;
+    }
+
+}
+@media (min-width: 992px) {
+    .tabela td, .tabela th {
+        font-size: 1.3vw;
+        padding: 10px 20px;
+    }
+    .status-zahtjeva {
+        font-size: 1.3vw;
+    }
+    .tabela {
+        width: 90%;
+    }
+
+}
+@media (min-width: 1200px) {
+    .tabela td, .tabela th {
+        font-size: 1vw;
+        padding: 10px 20px;
+    }
+    .status-zahtjeva {
+        font-size: 1vw;
+    }
+}

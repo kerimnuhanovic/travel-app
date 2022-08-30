@@ -1,0 +1,151 @@
+.kartica {
+    height: 15rem;
+    width: 180px;
+    box-shadow: 0px 2.98256px 7.4564px black;
+    border-radius: 5px;
+    margin: 10px 5px;/**/
+    cursor: pointer;
+    background-color: #ebeff5;
+    /*Pokusat sredit malo*/
+}
+.kartica:hover {
+    transform: scale(1.05);
+}
+.okvir-slike {
+    height: 6rem;
+}
+.okvir-slike img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.podaci-kartice {
+    padding: 10px;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.span-lokacija {
+    font-weight: bold;
+    color: #078a67;
+}
+.podaci-kartice p {
+    font-size: 2.7vw;/*1.2vw*/
+}
+.podaci-kartice h3{
+    font-weight: lighter;
+    font-size: 4vw;
+    color: #1d49a8;
+}
+.dugme-kartice {
+    background-color: #078a67;
+    color: honeydew;
+    width: 100%;
+    display: none;
+}
+.dugme-kartice:hover {
+    color: white;
+    background-color: #057859;
+}
+
+.span-km {
+    color: darkred;
+}
+@media (min-width: 576px) {
+    .kartica {
+        height: 17rem;
+        width: 205px;
+        margin: 10px 10px;
+    }
+    .okvir-slike {
+        height: 7rem;
+    }
+    .podaci-kartice {
+        height: 10rem;
+    }
+
+    .podaci-kartice p {
+        font-size: 2.2vw;/*1.2vw*/
+    }
+    .podaci-kartice h3{
+        font-size: 3.2vw;
+    }
+    .dugme-kartice {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .kartica {
+        height: 20rem;
+        width: 245px;
+
+    }
+    .okvir-slike {
+        height: 7.7rem;
+    }
+    .podaci-kartice {
+        height: 12.3rem;
+    }
+
+    .podaci-kartice p {
+        font-size: 1.7vw;/*1.2vw*/
+    }
+    .podaci-kartice h3{
+        font-size: 2.5vw;
+    }
+    .dugme-kartice {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .kartica {
+        height: 21rem;
+        width: 280px;
+
+    }
+    .okvir-slike {
+        height: 8rem;
+    }
+    .podaci-kartice {
+        height: 13rem;
+    }
+
+    .podaci-kartice p {
+        font-size: 1.3vw;/*1.2vw*/
+    }
+    .podaci-kartice h3{
+        font-size: 2vw;
+    }
+    .dugme-kartice {
+        display: block;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .kartica {
+        height: 23rem;
+        width: 300px;
+
+    }
+    .okvir-slike {
+        height: 9rem;
+    }
+    .podaci-kartice {
+        height: 14rem;
+    }
+
+    .podaci-kartice p {
+        font-size: 1.2vw;/*1.2vw*/
+    }
+    .podaci-kartice h3{
+        font-size: 1.6vw;
+    }
+    .dugme-kartice {
+        display: block;
+    }
+}
+

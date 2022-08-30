@@ -1,0 +1,45 @@
+.okvir-zahtjeva {
+    text-align: center;
+}
+.okvir-zahtjeva form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 25px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: 1px solid #057859;
+    box-shadow: 0px 2.98256px 7.4564px black;
+    background-color: #ebeff5;
+}
+.okvir-zahtjeva form input, select {
+    margin: 20px 0px;
+    padding: 10px 18px;
+    border-radius: 9px;
+    outline-color: #057859;
+    border: 1px solid #06c491;
+}
+.okvir-zahtjeva form h1 {
+    color: #06c491;
+}
+
+.okvir-zahtjeva form select option {
+    padding: 10px;
+}
+
+@media (min-width: 576px) {
+    .okvir-zahtjeva form {
+       width: 80%;
+    }
+}
+@media  (min-width: 768px){
+    .okvir-zahtjeva form {
+        width: 60%;
+    }
+}
+@media (min-width: 992px) {
+    .okvir-zahtjeva form {
+        width: 40%;
+    }
+}

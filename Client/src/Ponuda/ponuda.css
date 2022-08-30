@@ -1,0 +1,42 @@
+.ponuda-naslov {
+    font-weight: lighter;
+    color: #e8a53a;
+}
+.okvir-kartica {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.naslov-dugme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.naslov-dugme button {
+
+}
+.kreiraj-zahtjev {
+    font-size: 3vw;
+}
+
+
+@media (min-width: 576px) {
+    .kreiraj-zahtjev {
+        font-size: 2vw;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .kreiraj-zahtjev {
+        font-size: 1.8vw;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .kreiraj-zahtjev {
+        font-size: 1vw;
+    }
+}

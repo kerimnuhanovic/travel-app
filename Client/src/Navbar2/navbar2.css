@@ -1,0 +1,88 @@
+.navbar-logo {
+    /*width: 120px;
+    height: 120px;*/
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+
+    /*border: 1px solid red;*/
+}
+.navbar2 {
+    background-color: #078a67;
+
+    box-shadow: 0px 2.98256px 7.4564px gray;
+
+}
+
+
+nav .navbar-nav li a{
+    color: white !important;
+}
+nav .navbar-nav li a:hover{
+    color: #e8a53a !important;
+}
+.dropdown-menu {
+    background-color: #078a67;
+
+}
+.dropdown-item:hover {
+    background-color: #057859;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+
+}
+.profilna {
+    width: 50px;
+    height: 60px;
+}
+.profilna img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+}
+
+.prof-user {
+    display: flex;
+    align-items: center;
+}
+
+.obojinar {
+    color: #e8a53a;
+}
+
+@media (min-width: 576px) {
+    .navbar-logo {
+        width: 90px;
+        height: 90px;
+    }
+
+}
+@media (min-width: 768px) {
+    .navbar-logo {
+        width: 100px;
+        height: 100px;
+    }
+    .profilna {
+        width: 60px;
+        height: 70px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .navbar-logo {
+        width: 110px;
+        height: 110px;
+    }
+    .profilna {
+        width: 60px;
+        height: 60px;
+    }
+
+}
